@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HaiPower Solar & Battery (Aohai Cloud)",
+        "description": "Enter your HaiPower / Aohai Digital Power account credentials. Your inverter serial number (DSN) and station details will be discovered automatically.",
+        "data": {
+          "username": "Email / Username",
+          "password": "Password",
+          "base_url": "Cloud Server Region",
+          "dsn": "Inverter Serial Number (DSN - Optional, auto-discovered if left blank)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Authentication failed or no inverter found on this account. Please check your email, password, and server region."
+    },
+    "abort": {
+      "already_configured": "This HaiPower inverter is already configured."
+    }
+  }
+}

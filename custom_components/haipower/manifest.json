@@ -1,0 +1,11 @@
+{
+  "domain": "haipower",
+  "name": "HaiPower Solar & Battery (Aohai Cloud)",
+  "codeowners": ["@bullkerem"],
+  "config_flow": true,
+  "documentation": "https://github.com/bullkerem/ha-haipower",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/bullkerem/ha-haipower/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

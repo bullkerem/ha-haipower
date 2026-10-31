@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HaiPower Güneş Enerjisi & Batarya (Aohai Cloud)",
+        "description": "HaiPower / Aohai Digital Power mobil uygulama veya web portalı giriş bilgilerinizi girin. İnverter seri numarası (DSN) ve istasyon bilgileriniz otomatik olarak bulunacaktır.",
+        "data": {
+          "username": "E-posta / Kullanıcı Adı",
+          "password": "Şifre",
+          "base_url": "Bulut Sunucu Bölgesi",
+          "dsn": "İnverter Seri No (DSN - İsteğe bağlı, boş bırakılırsa otomatik bulunur)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Giriş başarısız oldu veya bu hesapta inverter bulunamadı. Lütfen e-posta, şifre ve sunucu bölgesini kontrol edin."
+    },
+    "abort": {
+      "already_configured": "Bu HaiPower inverter zaten eklenmiş."
+    }
+  }
+}

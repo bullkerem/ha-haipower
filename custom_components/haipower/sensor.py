@@ -79,7 +79,7 @@ SENSOR_TYPES: tuple[HaiPowerSensorEntityDescription, ...] = (
         native_unit_of_measurement=UnitOfEnergy.KILO_WATT_HOUR,
         device_class=SensorDeviceClass.ENERGY,
         state_class=SensorStateClass.TOTAL_INCREASING,
-        icon="mdi:White-balance-sunny",
+        icon="mdi:white-balance-sunny",
     ),
     HaiPowerSensorEntityDescription(
         key="vpv1",
@@ -189,7 +189,7 @@ SENSOR_TYPES: tuple[HaiPowerSensorEntityDescription, ...] = (
         native_unit_of_measurement=UnitOfEnergy.KILO_WATT_HOUR,
         device_class=SensorDeviceClass.ENERGY,
         state_class=SensorStateClass.TOTAL_INCREASING,
-        icon="mdi:home-Import-outline",
+        icon="mdi:home-import-outline",
     ),
     # --- GRID ---
     HaiPowerSensorEntityDescription(

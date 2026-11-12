@@ -1,8 +1,14 @@
 # ☀️ HaiPower Solar & Battery (Aohai Digital Power) — Home Assistant Integration
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
-[![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=for-the-badge)](https://github.com/bullkerem/ha-haipower)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/bullkerem/ha-haipower?style=for-the-badge&color=brightgreen)](https://github.com/bullkerem/ha-haipower/releases)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge&logo=homeassistantcommunitystore&logoColor=white)](https://github.com/hacs/integration)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2023.8%2B-18BCF2?style=for-the-badge&logo=homeassistant&logoColor=white)](https://www.home-assistant.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/bullkerem/ha-haipower?style=for-the-badge&color=yellow)](https://github.com/bullkerem/ha-haipower/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/bullkerem/ha-haipower?style=for-the-badge&color=orange)](https://github.com/bullkerem/ha-haipower/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/bullkerem/ha-haipower?style=for-the-badge&color=purple)](https://github.com/bullkerem/ha-haipower/commits/main)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=bullkerem&repository=ha-haipower&category=integration)
 
 **HaiPower** / **Aohai Digital Power** (`cloud.aohaidigitalpower.com` / `eu.aohaidigitalpower.com` / `solarhaipower.com`) hibrit güneş enerjisi inverterleri ve batarya depolama sistemleri için geliştirilmiş **Home Assistant** özel bileşeni (custom integration).
 
@@ -66,7 +72,7 @@ Custom Home Assistant integration for **HaiPower** / **Aohai Digital Power** hyb
 ## 📡 Oluşturulan Sensörler / Provided Sensors (24 Entities)
 
 | Kategori | Sensör Adı | Entity ID (Örnek) | Birim | API Alanı |
-| :--- | :--- | :--- | :---: | :---: |
+| :--- | :--- | :--- | :--- | :--- |
 | **☀️ Güneş (PV)** | Güneş Anlık Üretim | `sensor.haipower_gunes_anlik_uretim` | `kW` | `ppvAll` |
 | **☀️ Güneş (PV)** | Güneş Günlük Üretim | `sensor.haipower_gunes_gunluk_uretim` | `kWh` | `epVAllToday` |
 | **☀️ Güneş (PV)** | Güneş Aylık Üretim | `sensor.haipower_gunes_aylik_uretim` | `kWh` | `epvMonth` |
@@ -104,6 +110,18 @@ Home Assistant **Ayarlar -> Panolar -> Enerji** menüsünde şu sensörleri seç
 - **Ev Batarya Depolaması (Battery Systems):**
   - Bataryaya giren enerji: `sensor.haipower_batarya_gunluk_sarj`
   - Bataryadan çıkan enerji: `sensor.haipower_batarya_gunluk_desarj`
+
+---
+
+## 🆕 Sürüm Geçmişi / Changelog
+
+### v1.1.0
+- 🏷️ Dinamik GitHub Release, Home Assistant (`2023.8+`), HACS tek tıkla kurulum (`My Home Assistant`), yıldız, sorun ve son commit rozetleri eklendi.
+- 🎨 `sensor.py` içindeki MDI ikon adları (`mdi:white-balance-sunny`, `mdi:home-import-outline`) küçük harf standardına göre düzeltildi.
+- 📦 `manifest.json` sürümü `1.1.0` olarak güncellendi.
+
+### v1.0.0
+- 🚀 İlk sürüm: HaiPower / Aohai Digital Power bulut API otomatik keşfi, 24 gerçek zamanlı sensör, Energy Dashboard uyumu ve TR/EN dil desteği.
 
 ---
 
